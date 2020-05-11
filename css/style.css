@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
   height: 30px;
   line-height: 30px;
   text-align: center;
-  border: 1px dotted #ffffff;
+  border: 1px dashed #ffffff;
   border-radius: 50%;
   margin-top: 3px;
   transition: all linear .3s;
@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
   top: 50%;
   transform: translateY(-50%);
 }
-.banner-contents h2{
+.banner-contents h1{
   color: #ffffff;
   font-size: 42px;
   text-transform: uppercase;
@@ -205,4 +205,365 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
 }
 .banner-btn .btn-primary.focus, .btn-primary:focus {
   box-shadow: none;
+}
+
+/* ===========================================================================================================
+                                          Some Content Part Css
+========================================================================================================= */
+.content-writer{
+  padding: 35px;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.06);
+  position: relative;
+  background: #ffffff;
+}
+.content-writer h3{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px;
+  font-weight: 900;
+  color: rgb(131, 136, 141,.3);
+}
+.content-writer h2{
+  font-size: 24px;
+  font-weight: 800;
+  color: #34964D;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.content-writer span{
+  font-size: 18px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+.content-writer p{
+  color: #83888D;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  line-height: 26px;
+}
+.bg-1{
+  background: linear-gradient(48deg, #185F8B 0%, #34964D 42%, #91C942 100%);
+}
+.bg-1 h2{
+  color: #ffffff;
+}
+.bg-1 h3{
+  color: #dddddd;
+}
+.bg-1 span{
+  color: #f5f5f5;
+}
+.bg-1 p{
+  color: #dddddd;
+}
+.content-bg{
+  position: relative;
+  top: -50px;
+}
+
+/* =======================================================================================================
+                                             About Part Css
+========================================================================================================= */
+#about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.title h2{
+  color: #185F8B;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 900;
+}
+.about-content{
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.about-content h3{
+  color: #34964D;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.about-content span{
+  color: #3A3A3A;
+  font-weight: 500;
+  font-size: 16px;
+}
+.about-content p{
+  color: #83888D;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.video-part{
+  position: relative;
+}
+.video-part::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+}
+.video-icon img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 9;
+}
+.vbox-share svg{
+  display: none;
+}
+
+
+/* ========================================================================================================
+                                            Technology Part Css 
+==========================================================================================================*/
+#technology{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.para p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #3A3A3A;
+  font-weight: 400;
+  margin-top: -15px;
+}
+.tech-img{
+  margin-top: 20px;
+  border: 1px solid rgba(52, 150, 77,.2);
+}
+.vbox-content img{
+  height: 500px;
+}
+
+
+/* ======================================================================================================
+                                              Gallery Part Css
+======================================================================================================== */
+#gallery{
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background: #f5f5f5;
+  position: relative;
+}
+#gallery i{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 20px;
+  background: linear-gradient(48deg, #185F8B 0%, #34964D 42%, #91C942 100%);
+  cursor: pointer;
+}
+.left{
+  position: absolute;
+  bottom: 9%;
+  left: 46%;
+}
+.right{
+  position: absolute;
+  bottom: 9%;
+  right: 47%;
+}
+.g-img{
+  position: relative;
+  cursor: pointer;
+}
+.g-img .overlay{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  background: linear-gradient(48deg, #185F8B 0%, #34964D 42%, #91C942 100%);
+  transform: scale(0);
+  transition: all linear .3s;
+}
+.gallery-slider .g-img .overlay .icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #ffffff!important;
+  font-size: 40px!important;
+  background: none!important;
+}
+.g-img:hover .overlay{
+  transform: scale(1);
+}
+
+
+/* ========================================================================================================
+                                                Advantage Part Css
+========================================================================================================= */
+#advantage{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #061F2E;
+}
+.advan-content h3{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.advan-content ul li{
+  color: #f5f5f5;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+.advan-content ul li i{
+  color: #91C942;
+  font-size: 7px;
+  margin-right: 7px;
+  top: -2px;
+  position: relative;
+}
+.mr-2{
+  margin-left: 45px;
+}
+
+/* ==================================================================================================
+                                               Problem Part Css
+===================================================================================================== */
+#problem{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.sub-title h3{
+  color: #061F2E;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.prob-content{
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.06);
+  padding: 25px;
+}
+.prob-content h4{
+  color: #34964D;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.prob-content p{
+  color: #3A3A3A;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.prob-img{
+  overflow: hidden;
+  position: relative;
+}
+.prob-img::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.3);
+  cursor: pointer;
+}
+.prob-img img{
+  overflow: hidden;
+  transition: all linear .3s;
+  transform: scale(1);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.prob-img:hover img{
+  transform: scale(1.2);
+}
+
+/* ======================================================================================================
+                                               Solution Part Css
+======================================================================================================= */
+#solution{
+  padding-top: 0px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+
+/* =======================================================================================================
+                                              Counter Part Css
+========================================================================================================= */
+#counter{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #061F2E;
+}
+.counter-content{
+  padding: 30px;
+  border: 1px dashed #91C942;
+  border-radius: 8px;
+  height: 210px;
+}
+.counter-content span{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+.counter-content p{
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* ========================================================================================================
+                                           Off-Taker Relations Part Css 
+==========================================================================================================*/
+#off-taker{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url(../images/Off-taker-relation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+#off-taker::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.6);
+}
+.off-taker-bg{
+  position: relative;
+  z-index: 99;
+}
+.off-taker-content p{
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.off-taker-content h6{
+  color: #91C942;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
