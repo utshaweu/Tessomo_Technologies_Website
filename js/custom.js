@@ -1,6 +1,48 @@
 $(function(){
   'user strict'
 
+  //Sticky Menu js
+  $(window).scroll(function(){
+    var scrolling = $(this).scrollTop();
+     
+     if(scrolling > 50){
+         $(".navbar").addClass("menu-bg");
+     }
+     else{
+         $(".navbar").removeClass("menu-bg");
+     }
+     if(scrolling > 100){
+         back2top.fadeIn(500);
+     }
+     else{
+         back2top.fadeOut(500);
+     }
+ });
+
+  //Back to top js
+  var back2top = $(".back-to-top");
+  var html_body = $('html,body');
+  back2top.click(function(){
+    html_body.animate({scrollTop:0},1000);
+  });
+
+
+  //Smooth Scroll js
+  var html_body = $('html, body');
+  $('a').on('click', function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+              html_body.animate({
+                  scrollTop: target.offset().top - 80
+              }, 1500);
+              return false;
+          }
+      }
+  });
+
+
   //Venobox js
   $('.venobox').venobox(); 
 
@@ -10,8 +52,20 @@ $(function(){
     slidesToScroll: 1,
     autoplay: true,
     arrows: true,
-    prevArrow: '.left',
-    nextArrow: '.right',
+    prevArrow: '.right',
+    nextArrow: '.left',
+    speed:1000,
+    autoplaySpeed: 2500,
+  });
+
+  //Team Slider Js
+  $('.team-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: true,
+    prevArrow: '.right2',
+    nextArrow: '.left2',
     speed:1000,
     autoplaySpeed: 2500,
   });
