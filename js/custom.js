@@ -1,6 +1,11 @@
 $(function(){
   'user strict'
 
+  //Preloader js
+  $(window).on('load',function(){
+    $(".preloader").delay(1000).fadeOut(1000);
+  });
+
   //Sticky Menu js
   $(window).scroll(function(){
     var scrolling = $(this).scrollTop();
@@ -35,7 +40,7 @@ $(function(){
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
           if (target.length) {
               html_body.animate({
-                  scrollTop: target.offset().top - 80
+                  scrollTop: target.offset().top - 45
               }, 1500);
               return false;
           }
@@ -75,5 +80,8 @@ $(function(){
       delay: 10,
       time: 2000,
   });
+
+  //Wow Js
+  new WOW().init();
 
 });
