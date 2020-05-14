@@ -1,5 +1,5 @@
 $(function(){
-  'user strict'
+  'use strict'
 
   //Preloader js
   $(window).on('load',function(){
