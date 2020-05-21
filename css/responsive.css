@@ -1,0 +1,228 @@
+/* ===================================================================================================
+                                              Extra Small Device
+====================================================================================================== */
+@media(max-width: 575.98px){
+  #navbar-sub h6 {
+    font-size: 9px;
+  }
+  #navbar-sub h5 {
+    font-size: 9px;
+    text-align: left;
+  }
+  .navsub-social-link i {
+    font-size: 6px;
+    margin-left: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar-toggler i{
+    color: #3A3A3A;
+    font-size: 24px;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .banner-contents h1 {
+    font-size: 30px;
+  }
+  .banner-contents p {
+    font-size: 16px;
+  }
+  #banner {
+    height: 130vh;
+  }
+  .content-writer h2 {
+    font-size: 20px;
+  }
+  .content-writer p {
+    font-size: 14px;
+  }
+  .about-content h3 {
+    font-size: 19px;
+  }
+  .about-content span {
+    font-size: 14px;
+  }
+  .video-part {
+    margin-top: 30px;
+  }
+  .para p {
+    font-size: 14px;
+  }
+  .right {
+    right: 50%;
+  }
+  .left {
+    left: 52%;
+  }
+  .advan-content h3 {
+    font-size: 22px;
+  }
+  .mr-2 {
+    margin-left: 0;
+  }
+  .prob-img {
+    margin-top: 30px;
+  }
+  .prob-content {
+    height: 590px !important;
+  }
+  .prob-content h4 {
+    font-size: 16px;
+  }
+  .mr4{
+    height: 353px!important;
+    margin-top: 30px;
+  }
+  .mr5{
+    height: 283px!important;
+  }
+  .product-img {
+    margin-bottom: 30px;
+  }
+  .counter-content {
+    margin-bottom: 30px;
+  }
+  #counter {
+    padding-bottom: 20px;
+  }
+  .investor-content h3 {
+    margin-top: 10px;
+  }
+  .investor-content span {
+    font-size: 14px;
+  }
+  .investor-content p {
+    font-size: 14px;
+  }
+  .investor-content h6 {
+    font-size: 14px;
+  }
+  .investor-content ul li {
+    font-size: 14px;
+  }
+  .mr6{
+    margin-top: 30px;
+    height: 210px!important;
+  }
+  .vbox-content img {
+    height: 350px;
+  }
+  .left2 {
+    left: 110px;
+    top: 98%;
+  }
+  .right2 {
+    top: 98%;
+    right: 110px;
+  }
+  .host-content {
+    margin-top: 30px;
+  }
+  .cont-part span {
+    font-size: 12px;
+  }
+  .cont-part {
+    margin-bottom: 30px;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .branch h6 {
+    margin-top: 15px;
+  }
+  .mr7{
+    margin-left: 15px;
+  }
+  .mr3 .btn {
+    width: 150%;
+  }
+  #footer h6 {
+    text-align: center;
+  }
+  #footer span {
+    text-align: center;
+    display: block;
+  }
+  .last-part h5 {
+    text-align: center;
+  }
+  .mr8 {
+    text-align: center !important;
+    margin-top: 15px;
+  }
+  .branch {
+    margin-top: 30px;
+  }
+  .back-to-top {
+    right: 15px;
+  }
+}
+@media(width: 480px){
+  .prob-content {
+    height: 395px !important;
+  }
+  .mr4 {
+    height: 253px !important;
+  }
+  .mr5 {
+    height: 183px !important;
+  }
+  .left2 {
+    left: 188px;
+  }
+  .right2 {
+    right: 192px;
+  }
+  .cont-part span {
+    font-size: 14px;
+  }
+}
+@media(width: 575px){
+  #navbar-sub {
+    padding-top: 12px;
+    padding-bottom: 13px;
+  }
+  .content-writer h2 {
+    font-size: 24px;
+  }
+  .content-writer p {
+    font-size: 16px;
+  }
+  .prob-content {
+    height: 325px !important;
+  }
+  .mr4 {
+    height: 233px !important;
+  }
+  .mr5 {
+    height: 183px !important;
+  }
+  .left2 {
+    left: 220px;
+  }
+  .right2 {
+    right: 247px;
+  }
+  .cont-part span {
+    font-size: 14px;
+  }
+  .cont-part i{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .branch {
+    text-align: center;
+  }
+}

@@ -24,6 +24,11 @@ $(function(){
      }
  });
 
+  // Closes responsive menu when a scroll link is clicked
+  $('.nav-link').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
   //Back to top js
   var back2top = $(".back-to-top");
   var html_body = $('html,body');
@@ -61,6 +66,31 @@ $(function(){
     nextArrow: '.left',
     speed:1000,
     autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          centerMode:false,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+      ]
   });
 
   //Team Slider Js
@@ -73,6 +103,31 @@ $(function(){
     nextArrow: '.left2',
     speed:1000,
     autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          centerMode:false,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+      ]
   });
 
   //Counter Up Js

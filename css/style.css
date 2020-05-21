@@ -42,12 +42,16 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
   font-size: 14px;
   font-weight: 400;
   margin-top: 10px;
+  text-align: right;
 }
 #navbar-sub h5 i{
   margin-right: 8px;
 }
 #navbar-sub h5 a{
   color: #ffffff;
+}
+.navsub-social-link{
+  text-align: right;
 }
 .navsub-social-link i{
   color: #ffffff;
@@ -1050,6 +1054,7 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
   background: linear-gradient(48deg, #185F8B 0%, #34964D 42%, #91C942 100%);
   border: 0;
   padding: 16px 0;
+  width: 100%;
 }
 #footer h6{
   color: #ffffff;
@@ -1129,13 +1134,13 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
   height: 100%;
   background: #ffffff;
   position: fixed;
-  z-index: 9999999;
+  z-index: 99999999;
 }
 .loading{
-	position: absolute;
-	min-height: 100px;
+  position: absolute;
+  min-height: 100px;
 	top: 50%;
-	left: 50%;
+  left: 50%;
   transform: translate(-50%,-50%);
 }
 .loading::after {
