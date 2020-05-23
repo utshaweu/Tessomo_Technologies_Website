@@ -119,12 +119,15 @@
     height: 350px;
   }
   .left2 {
-    left: 110px;
-    top: 98%;
+    left: 37%;
+    bottom: -3%;
   }
   .right2 {
-    top: 98%;
-    right: 110px;
+    bottom: -3%;
+    right: 34%;
+  }
+  #team {
+    margin-bottom: 50px;
   }
   .host-content {
     margin-top: 30px;
@@ -179,10 +182,10 @@
     height: 183px !important;
   }
   .left2 {
-    left: 188px;
+    left: 42%;
   }
   .right2 {
-    right: 192px;
+    right: 38%;
   }
   .cont-part span {
     font-size: 14px;
@@ -209,10 +212,10 @@
     height: 183px !important;
   }
   .left2 {
-    left: 220px;
+    left: 44%;
   }
   .right2 {
-    right: 247px;
+    right: 39%;
   }
   .cont-part span {
     font-size: 14px;
@@ -224,5 +227,386 @@
   }
   .branch {
     text-align: center;
+  }
+}
+
+/* =======================================================================================================
+                                                  Small Device
+========================================================================================================= */
+@media(min-width:576px) and (max-width:767.98px){
+  #navbar-sub {
+    padding-top: 5px;
+  }
+  #navbar-sub h5 {
+    text-align: left;
+  }
+  .navsub-social-link i {
+    margin-top: 7px;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar-toggler i{
+    color: #3A3A3A;
+    font-size: 24px;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .banner-contents h1 {
+    font-size: 39px;
+    margin-top: 50px;
+  }
+  .content-bg {
+    top: 0px;
+  }
+  .about-content {
+    margin-bottom: 30px;
+  }
+  .vbox-content img {
+    height: 400px;
+  }
+  .right {
+    right: 42%;
+  }
+  .left {
+    left: 42%;
+  }
+  .advan-content h3 {
+    font-size: 22px;
+  }
+  .mr-2 {
+    margin-left: 0;
+  }
+  .prob-content {
+    margin-bottom: 0px;
+  }
+  .mr11{
+    margin-top: 30px;
+  }
+  .mr10{
+    height: 370px!important;
+  }
+  .mr4{
+    margin-top: 30px;
+  }
+  .mr5{
+    height: 173px!important;
+  }
+  .product-img {
+    margin-bottom: 30px;
+  }
+  #product {
+    padding-bottom: 20px;
+  }
+  .counter-content {
+    margin-bottom: 30px;
+  }
+  #counter {
+    padding-bottom: 20px;
+  }
+  .investor-content h3 {
+    font-size: 17px;
+  }
+  .mr6{
+    margin-top: 30px;
+    height: 186px!important;
+    text-align: center;
+  }
+  #team .card .img .over-lay .c-social-icon i {
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+  #team .card{
+    height: 430px;
+  }
+  .edu a {
+    font-size: 13px;
+  }
+  .edu span {
+    font-size: 13px;
+  }
+  .left2 {
+    bottom: -3%;
+    left: 40%;
+  }
+  .right2 {
+    bottom: -3%;
+    right: 40%;
+  }
+  #team {
+    margin-bottom: 50px;
+  }
+  .host h6 {
+    font-size: 47px;
+  }
+  .host {
+    margin-bottom: 30px;
+  }
+  .cont-part {
+    margin-bottom: 30px;
+  }
+  .cont-part i {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .branch {
+    margin-top: 30px;
+  }
+  #footer h6 {
+    text-align: center;
+  }
+  #footer span {
+    display: block;
+    text-align: center;
+  }
+  .mr3 .btn {
+    width: 113%;
+  }
+  .last-part h5 {
+    text-align: center;
+  }
+  .last-part h6 {
+    padding-top: 0px;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .last-part {
+    margin-top: 20px;
+  }
+  .back-to-top {
+    right: 20px;
+  }
+}
+
+/* =======================================================================================================
+                                                Medium Device 
+==========================================================================================================*/
+@media(min-width:768px) and (max-width:991.98px){
+  #navbar-sub {
+    padding-top: 5px;
+  }
+  .navsub-social-link i {
+    margin-top: 7px;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar-toggler i{
+    color: #3A3A3A;
+    font-size: 24px;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .banner-contents h1 {
+    margin-top: 60px;
+  }
+  .content-bg {
+    top: 0px;
+  }
+  .about-content {
+    margin-bottom: 30px;
+  }
+  .vbox-content img {
+    height: 400px;
+  }
+  .left {
+    left: 43%;
+  }
+  .right {
+    right: 43%;
+  }
+  .mr-2 {
+    margin-left: 15px;
+  }
+  .mr10{
+    height: 284px!important;
+    margin-bottom: 30px;
+  }
+  .mr4{
+    height: 211px!important;
+    margin-top: 30px;
+  }
+  .mr5{
+    height: 171px!important;
+  }
+  .product-img {
+    margin-bottom: 30px;
+  }
+  #product {
+    padding-bottom: 20px;
+  }
+  .counter-content {
+    margin-bottom: 30px;
+  }
+  #counter {
+    padding-bottom: 20px;
+  }
+  .mr6{
+    margin-top: 30px;
+    height: 190px!important;
+    text-align: center;
+  }
+  .left2 {
+    bottom: -4%;
+    left: 43%;
+  }
+  .right2 {
+    bottom: -4%;
+    right: 43%;
+  }
+  #team {
+    margin-bottom: 50px;
+  }
+  .host h6 {
+    font-size: 27px;
+  }
+  .host-content span {
+    font-size: 14px;
+  }
+  .host {
+    padding: 57px 35px;
+  }
+  .cont-part {
+    margin-bottom: 30px;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .branch {
+    margin-top: 30px;
+  }
+  .mr3 {
+    margin-top: 0px !important;
+  }
+  .mr3 .btn {
+    width: 120%;
+  }
+  #footer span {
+    font-size: 12px;
+  }
+  .text-right {
+    text-align: center !important;
+  }
+  .last-part {
+    margin-top: 20px;
+  }
+  .mr8 h6{
+    text-align: right;
+  }
+  .back-to-top {
+    right: 20px;
+  }
+}
+
+/* =================================================================================================
+                                             Large Device
+==================================================================================================== */
+@media(min-width:992px) and (max-width:1199.98px){
+  .navsub-social-link i {
+    margin-left: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 11px;
+  }
+  .about-content h3 {
+    font-size: 19px;
+  }
+  .about-content p {
+    font-size: 12px;
+    margin-bottom: 23px;
+  }
+  .right {
+    right: 44%;
+  }
+  .prob-content p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .investor-content h3 {
+    font-size: 17px;
+  }
+  .investor-content ul li {
+    font-size: 14px;
+  }
+  .investor-content span {
+    font-size: 14px;
+  }
+  .investor-content p {
+    font-size: 14px;
+    color: #3A3A3A;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .investor-content h6 {
+    font-size: 14px;
+  }
+  .mr6{
+    height: 286px!important;
+  }
+  #team .card {
+    height: 420px;
+  }
+  .advan-content h3 {
+    font-size: 20px;
+  }
+  .edu span {
+    font-size: 13px;
+  }
+  .left2 {
+    left: 35px;
+  }
+  .right2 {
+    right: 35px;
+  }
+  #team .card .img .over-lay .c-social-icon i {
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .host h6 {
+    font-size: 40px;
+  }
+  .host-content span {
+    font-size: 15px;
+  }
+  .host-content {
+    padding: 24px 35px;
+  }
+  .cont-part span {
+    font-size: 13px;
+  }
+  .branch h6 {
+    font-size: 14px;
+  }
+  .branch ul li {
+    font-size: 11px;
+  }
+  .last-part h5 {
+    font-size: 14px;
+  }
+  .mr8 h6{
+    font-size: 14px!important;
   }
 }
