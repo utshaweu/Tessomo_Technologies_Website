@@ -854,7 +854,11 @@ h1,h2,h3,h4,h5,h6,a,p,strong,span{
   left: 0;
   background: rgba(0,0,0,.6);
 }
-
+.off-taker-content span{
+  background: linear-gradient(48deg, #185F8B 0%, #34964D 42%, #91C942 100%);
+  font-weight: 500;
+  font-size: 18px;
+}
 
 /* ===================================================================================================
                                                Contact Part Css
